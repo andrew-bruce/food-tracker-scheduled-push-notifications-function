@@ -1,0 +1,39 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+out/
+coverage/
+.DS_Store
+
+# Ignore lock files if using a different package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore Appwrite local runtime cache
+.appwrite/
