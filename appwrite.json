@@ -41,7 +41,7 @@
         {
             "$id": "67db168700036ddf0e3d",
             "execute": [],
-            "name": "Starter function",
+            "name": "Scheduled expiry notification",
             "enabled": true,
             "logging": true,
             "runtime": "node-22",
